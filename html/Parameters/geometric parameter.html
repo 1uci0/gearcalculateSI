@@ -1,0 +1,220 @@
+<div class="ImputParameter">
+    <div class="tit1">
+        <p1 class="p1">Insira os Parâmetros</p1>
+    </div>
+    <div class="parameters1">
+        <div class="Parameter1">
+            <div class="Pdn-Pdt">
+                <label>
+                    <input id="mn-mt" style="margin-top: 5px; margin-left: -1px;" class="butradio" title="módulo transversal" type="radio" name="modulo" value="mt" checked onchange="angulodehelice()">
+                    <label class="legendradio">m</label><br>
+                </label>
+                <label>
+                    <input id="mt-mn" class="butradio" title="módulo normal" type="radio" name="modulo" value="mn" onchange="angulodehelice()">
+                    <label class="legendradio">m<sub>n</sub></label><br>
+                </label>
+            </div>
+            <div class="Pd">
+                <label title="módulo transversal">m:
+                    <select class="prmtr" id="m-t">
+                        <option value="0.3"> 0.3 </option>
+                        <option value="0.4"> 0.4 </option>
+                        <option value="0.5"> 0.5 </option>
+                        <option value="0.6"> 0.6 </option>
+                        <option value="0.7"> 0.7 </option>
+                        <option value="0.8"> 0.8 </option>
+                        <option value="0.9"> 0.9 </option>
+                        <option value="1"> 1 </option>
+                        <option value="1.25"> 1.25 </option>
+                        <option value="1.5"> 1.5 </option>
+                        <option value="1.75"> 1.75 </option>
+                        <option value="2"> 2 </option>
+                        <option value="2.25"> 2.25 </option>
+                        <option value="2.5"> 2.5 </option>
+                        <option value="2.75"> 2.75 </option>
+                        <option value="3"> 3 </option>
+                        <option value="3.25"> 3.25 </option>
+                        <option value="3.5"> 3.5 </option>
+                        <option value="3.75"> 3.75 </option>
+                        <option value="4"> 4 </option>
+                        <option value="4.5"> 4.5 </option>
+                        <option value="5"> 5 </option>
+                        <option value="5.5"> 5.5 </option>
+                        <option value="6"> 6 </option>
+                        <option value="6.5"> 6.5 </option>
+                        <option value="7"> 7 </option>
+                        <option value="8"> 8 </option>
+                        <option value="9"> 9 </option>
+                        <option value="10"> 10 </option>
+                        <option value="11"> 11 </option>
+                        <option value="12"> 12 </option>
+                        <option value="13"> 13 </option>
+                        <option value="14"> 14 </option>
+                        <option value="15"> 15 </option>
+                        <option value="16"> 16 </option>
+                        <option value="18"> 18 </option>
+                        <option value="20"> 20 </option>
+                        <option value="22"> 22 </option>
+                        <option value="24"> 24 </option>
+                        <option value="27"> 27 </option>
+                        <option value="30"> 30 </option>
+                        <option value="33"> 33 </option>
+                        <option value="36"> 36 </option>
+                        <option value="39"> 39 </option>
+                        <option value="42"> 42 </option>
+                        <option value="45"> 45 </option>
+                        <option value="50"> 50 </option>
+                        <option value="55"> 55 </option>
+                        <option value="60"> 60 </option>
+                        <option value="65"> 65 </option>
+                        <option value="70"> 70 </option>
+                        <option value="75"> 75 </option>
+                    </select>
+                </label>mm
+            </div>
+            <div class="Pnd" style="margin-top: 3px;">
+                <label title="módulo normal">m<sub>n</sub>:
+                    <select class="prmtr" id="m-n">
+                        <option value="0.3"> 0.3 </option>
+                        <option value="0.4"> 0.4 </option>
+                        <option value="0.5"> 0.5 </option>
+                        <option value="0.6"> 0.6 </option>
+                        <option value="0.7"> 0.7 </option>
+                        <option value="0.8"> 0.8 </option>
+                        <option value="0.9"> 0.9 </option>
+                        <option value="1"> 1 </option>
+                        <option value="1.25"> 1.25 </option>
+                        <option value="1.5"> 1.5 </option>
+                        <option value="1.75"> 1.75 </option>
+                        <option value="2"> 2 </option>
+                        <option value="2.25"> 2.25 </option>
+                        <option value="2.5"> 2.5 </option>
+                        <option value="2.75"> 2.75 </option>
+                        <option value="3"> 3 </option>
+                        <option value="3.25"> 3.25 </option>
+                        <option value="3.5"> 3.5 </option>
+                        <option value="3.75"> 3.75 </option>
+                        <option value="4"> 4 </option>
+                        <option value="4.5"> 4.5 </option>
+                        <option value="5"> 5 </option>
+                        <option value="5.5"> 5.5 </option>
+                        <option value="6"> 6 </option>
+                        <option value="6.5"> 6.5 </option>
+                        <option value="7"> 7 </option>
+                        <option value="8"> 8 </option>
+                        <option value="9"> 9 </option>
+                        <option value="10"> 10 </option>
+                        <option value="11"> 11 </option>
+                        <option value="12"> 12 </option>
+                        <option value="13"> 13 </option>
+                        <option value="14"> 14 </option>
+                        <option value="15"> 15 </option>
+                        <option value="16"> 16 </option>
+                        <option value="18"> 18 </option>
+                        <option value="20"> 20 </option>
+                        <option value="22"> 22 </option>
+                        <option value="24"> 24 </option>
+                        <option value="27"> 27 </option>
+                        <option value="30"> 30 </option>
+                        <option value="33"> 33 </option>
+                        <option value="36"> 36 </option>
+                        <option value="39"> 39 </option>
+                        <option value="42"> 42 </option>
+                        <option value="45"> 45 </option>
+                        <option value="50"> 50 </option>
+                        <option value="55"> 55 </option>
+                        <option value="60"> 60 </option>
+                        <option value="65"> 65 </option>
+                        <option value="70"> 70 </option>
+                        <option value="75"> 75 </option>
+                    </select>
+                </label>mm
+            </div>
+            <div class="Φ">
+                <label title="ângulo de perfil">Φ:<sub></sub>
+                    <select class="prmtr" id="phi-t" style="margin-top: 5px;">
+                        <option value="14.5"> 14.5° </option>
+                        <option value="20"> 20° </option>
+                        <option value="25"> 25° </option>
+                    </select>
+                </label>
+            </div>
+            <div class="Φn">
+                <label title="ângulo de perfil normal">Φ<sub>n</sub>:
+                    <select class="prmtr" id="phi-n" style="margin-top: 5px;">
+                        <option value="14.5"> 14.5° </option>
+                        <option value="20"> 20° </option>
+                        <option value="25"> 25° </option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <label title="ângulo de hélice">ψ:
+                    <select class="prmtr" id="psi" onchange="angulodehelice()">
+                        <option value="0"> 0° </option>
+                        <option value="10"> 10° </option>
+                        <option value="15"> 15° </option>
+                        <option value="20"> 20° </option>
+                        <option value="25"> 25° </option>
+                        <option value="30"> 30° </option>
+                    </select>
+                </label>
+            </div>
+            <div class="x">
+                <label title="fator de deslocamento do perfil">x:
+                    <select class="prmtr" id="x">
+                        <option value="0"> 0 </option>
+                        <option value="0.25"> 0.25 </option>
+                        <option value="0.50"> 0.50 </option>
+                    </select>
+                </label>
+            </div>
+            <div class="ka">
+                <label title="fator de altura do dente">k<sub>a</sub>:
+                    <select class="prmtr" id="ka">
+                        <option value="1"> 1 </option>
+                        <option value="0.8"> 0.8 </option>
+                        <option value="0.9"> 0.9 </option>
+                        <option value="1.1"> 1.1 </option>
+                        <option value="1.2"> 1.2 </option>
+                    </select>
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="parameters2">
+        <div class="Parameter2">
+            <div class="I">
+                <label>i:
+                <input class="dadosEnter" type="number" name="I1" id="I1" min="0">:<input style="width: 20px;" class="dadosEnter" type="number" name="I2" id="I2" min="0">
+                </label>
+            </div>
+            <div class="Z1">
+                <label>z<sub>1</sub>:
+                <input class="dadosEnter1" type="number" name="Z1" id="Z1" min="0">
+                </label>
+            </div>
+            <div class="D1">
+                <label>d<sub>w1</sub>:
+                <input class="dadosEnter1" type="number" name="D1" id="D1" min="0">
+                </label>mm
+            </div>
+            <div class="Z2">
+                <label>z<sub>2</sub>:
+                <input class="dadosEnter1" type="number" name="Z2" id="Z2" min="0">
+                </label>
+            </div>
+            <div class="D2">
+                <label>d<sub>w2</sub>:
+                <input class="dadosEnter1" type="number" name="D2" id="D2" min="0">
+                </label>mm
+            </div>
+        </div>
+        <div>
+            <button type="button" id="Calcular" class="Calcular c-effect" onclick="Calcular('geometric','result')">Calcular</button>
+        </div>
+    </div>
+</div>
+
+<div class="resultados" id="result">
+</div>
